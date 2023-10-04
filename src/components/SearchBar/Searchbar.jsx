@@ -4,7 +4,7 @@ import { BiSearch } from "react-icons/bi";
 import { carContext } from "../../context";
 
 function Searchbar() {
-  const { cardata, setCarData, searchTerm, setSearchTerm } =
+  const { searchTerm, setSearchTerm } =
     useContext(carContext);
   return (
     <div className="search-bar">

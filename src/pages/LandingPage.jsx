@@ -49,7 +49,6 @@ function LandingPage() {
     if (!page) {
       navigate("/1");
     }
-    console.log(page);
   }, []);
   return (
     <>
